@@ -26,15 +26,7 @@ end
 
 def sorted_matrix
   ORGANIC_PRODUCE = ["Asparagus", "Avocadoes","Grapes", "Potatoes","Strawberries"]
-  
-
-CONVENTIONAL_PRODUCE = [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
-]
+  CONVENTIONAL_PRODUCE = ["Eggplant","Grapefruit","Oranges","Pineapple","Watermelon"]
 
   [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
   # Using Array literal syntax only, build another nested array that 
