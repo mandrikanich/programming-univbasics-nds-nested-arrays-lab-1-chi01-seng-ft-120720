@@ -25,30 +25,9 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
-  An error occurred while loading ./spec/nested_array_spec.rb.Failure/Error: CREATED_FILES.each{ |f| require f }
-SyntaxError:
-  /home/rational-constructor-0171/programming-univbasics-nds-nested-arrays-lab-1-chi01-seng-ft-120720/lib/nested_array.rb:28: dynamic constant assignment
-    ORGANIC_PRODUCE = ["Asparagus", "Avocadoes",...
-    ^~~~~~~~~~~~~~~
-  /home/rational-constructor-0171/programming-univbasics-nds-nested-arrays-lab-1-chi01-seng-ft-120720/lib/nested_array.rb:29: dynamic constant assignment
-    CONVENTIONAL_PRODUCE = ["Eggplant","Grapefruit","...
-    ^~~~~~~~~~~~~~~~~~~~
-# ./spec/spec_helper.rb:5:in `require'
-# ./spec/spec_helper.rb:5:in `block in <top (required)>'
-# ./spec/spec_helper.rb:5:in `each'
-# ./spec/spec_helper.rb:5:in `<top (required)>'
-# ./spec/nested_array_spec.rb:1:in `require'
-# ./spec/nested_array_spec.rb:1:in `<top (required)>'
-No examples found.
-
-Finished in 0.00022 seconds (files took 0.28144 seconds to load)
-0 examples, 0 failures, 1 error occurred outside of examples
-
-[18:08:08] (master) programming-univbasics-nds-nested-arrays-lab-1-chi01-seng-ft-120720
-// ♥
+  # However, this time, sort each internal array alphabetically by the first character
 end
 
 def matrix_lookup(matrix, row, column)
